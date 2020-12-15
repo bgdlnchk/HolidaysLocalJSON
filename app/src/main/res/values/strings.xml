@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HolidaysLocalJSON</string>
+    <string name="holiday_title">Holiday Title</string>
+    <string name="holiday_date">Holiday Date</string>
+</resources>
