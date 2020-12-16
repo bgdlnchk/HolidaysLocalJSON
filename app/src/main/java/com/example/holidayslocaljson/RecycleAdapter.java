@@ -13,7 +13,6 @@ import java.util.List;
 
 public class RecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private final int TYPE = 1;
     private final Context context;
     private final List<Object> listRecycleItem;
 
@@ -22,10 +21,10 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         this.listRecycleItem = listRecycleItem;
     }
 
-    public class ItemViewHolder extends RecyclerView.ViewHolder {
+    public static class ItemViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView name;
-        private TextView date;
+        private final TextView name;
+        private final TextView date;
 
         public ItemViewHolder(@NonNull View itemView) {
             super(itemView);
